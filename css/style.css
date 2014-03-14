@@ -40,6 +40,19 @@ html, body {
   color:#333;
   border-radius: 4px;
   margin-bottom:20px;
+  border:1pt solid #333;
+}
+#mc_embed_signup input[type="email"],
+#mc_embed_signup input[type="text"] {
+  /*border:0pt;*/
+  border:1pt solid #333;
+  border-radius: 2px;
+  padding:5px;
+  width:200px;
+}
+#mc_embed_signup input[type="email"]:focus,
+#mc_embed_signup input[type="text"]:focus {
+  outline:none;
 }
 #mc_embed_signup h2 {
   font-size: 20px;
