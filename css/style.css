@@ -1,7 +1,15 @@
 html, body {
   margin:0;
   padding:0;
-  background: #022142;
+  background-color: #022142;
+  background-image: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.3)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+  background-image: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+  background-image: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* Opera 12+ */
+  background-image: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+  background-image: radial-gradient(ellipse at center,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
   color:white;
 }
 
@@ -23,4 +31,32 @@ html, body {
 #container article p {
   padding:10px 0;
   margin:0;
+}
+#mc_embed_signup {
+  font-size: 14px;
+  width:80%;
+  margin:0 auto;
+  background:white;
+  color:#333;
+  border-radius: 4px;
+  margin-bottom:20px;
+}
+#mc_embed_signup h2 {
+  font-size: 20px;
+}
+table {
+  margin:10px auto;
+}
+table tr td {
+  padding: 1px 3px;
+}
+#mc-embedded-subscribe {
+  border-radius: 2px;
+  border:1pt solid #333;
+  background:white;
+  margin-bottom:20px;
+}
+/* GENERIC */
+.bold {
+  font-weight: bolder;
 }
