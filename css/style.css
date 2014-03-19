@@ -12,7 +12,9 @@ html, body {
 
   color:white;
 }
-
+a {
+  color:#bbb;
+}
 #container {
   width:800px;
   margin:0 auto;
